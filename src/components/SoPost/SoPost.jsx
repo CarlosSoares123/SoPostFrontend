@@ -7,7 +7,7 @@ import { UserContext } from '../../context/UserContext'
 
 export const SoPost = () => {
   const { getPost, post } = useContext(UserContext)
-  const serverURL = 'https://pear-different-beaver.cyclic.app';
+  const serverURL = 'https://api-sopost.onrender.com';
 
   useEffect(() => {
     getPost()

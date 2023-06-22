@@ -1,13 +1,13 @@
-import axios from 'axios'
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import axios from 'axios'
 
 
 import * as L from '../Login/Login'
 import Avatar from '/avatarUser.svg'
 
 export const Register = () => {
-  const serverUrl = 'https://pear-different-beaver.cyclic.app'
+  const serverUrl = 'https://api-sopost.onrender.com'
   const navigate = useNavigate('/')
 
   const [name, setName] = useState('')

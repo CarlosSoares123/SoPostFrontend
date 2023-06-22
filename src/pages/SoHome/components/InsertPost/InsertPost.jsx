@@ -2,7 +2,7 @@ import * as I from './InsertPost'
 import * as G from'../../../../AppStyledGlobal'
 
 export const InsertPost = ({Modal, Image, Name, Surname}) => {
-  const serverUrl = 'https://pear-different-beaver.cyclic.app'
+  const serverUrl = 'https://api-sopost.onrender.com'
   return (
     <I.container>
       <I.insert>

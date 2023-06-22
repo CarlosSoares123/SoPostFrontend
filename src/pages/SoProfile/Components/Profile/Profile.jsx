@@ -8,7 +8,7 @@ export const Profile = ({modalUser}) => {
     getData()
   }, [])
 
-  const serverURL = 'https://pear-different-beaver.cyclic.app'
+  const serverURL = 'https://api-sopost.onrender.com'
 
   return (
     <P.Container>

@@ -6,7 +6,7 @@ import * as L from './Login'
 import Avatar from '/avatarUser.svg'
 
 export const Login = () => {
-  const serverUrl = 'https://pear-different-beaver.cyclic.app'
+  const serverUrl = 'https://api-sopost.onrender.com'
   const navigate = useNavigate('/')
   
   const [formEmail, setFormEmail] = useState(true)
