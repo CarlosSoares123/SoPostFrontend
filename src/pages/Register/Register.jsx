@@ -49,7 +49,8 @@ export const Register = () => {
             <input 
             className='input' 
             type="file" 
-            id="image" 
+            id="image"
+            name="image"
             accept="image/*" 
             onChange={e => setImage(e.target.files[0])}
             />
