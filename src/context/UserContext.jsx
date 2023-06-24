@@ -7,7 +7,7 @@ export const UserProvider = ({children}) => {
   const [user, setUser] = useState([])
   const [post, setPost] = useState([])
   
-  const serverURL = 'https://sopost.onrender.com'
+  const serverURL = 'https://pear-different-beaver.cyclic.app'
   axios.defaults.withCredentials = true
 
     const getData = () => {

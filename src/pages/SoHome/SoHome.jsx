@@ -20,7 +20,7 @@ export const SoHome = () => {
   const [auth, setAuth] = useState(false);
   const [text, setText] = useState('');
 
-  const serverURL = 'https://sopost.onrender.com'
+  const serverURL = 'https://pear-different-beaver.cyclic.app'
 
   axios.defaults.withCredentials = true
   useEffect(() => {

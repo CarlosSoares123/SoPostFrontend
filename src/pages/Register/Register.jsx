@@ -7,7 +7,7 @@ import * as L from '../Login/Login'
 import Avatar from '/avatarUser.svg'
 
 export const Register = () => {
-  const serverUrl = 'https://sopost.onrender.com'
+  const serverUrl = 'https://pear-different-beaver.cyclic.app'
   const navigate = useNavigate('/')
 
   const [name, setName] = useState('')

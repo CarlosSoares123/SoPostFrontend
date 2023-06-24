@@ -11,7 +11,7 @@ import { UserContext } from '../../../../context/UserContext';
 
 export const UserPosts = () => {
   const { user } = useContext(UserContext);
-  const serverURL = 'https://sopost.onrender.com'
+  const serverURL = 'https://pear-different-beaver.cyclic.app'
 
   const [posts, setPosts] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);

@@ -15,7 +15,7 @@ export const SoProfile = () => {
   const { getData } = useContext(UserContext)
   const [auth, setAuth] = useState(false)
 
-  const serverURL = 'https://sopost.onrender.com'
+  const serverURL = 'https://pear-different-beaver.cyclic.app'
   useEffect(() => {
     axios.get(`${serverURL}/`)
       .then((res) => {
