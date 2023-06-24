@@ -2,7 +2,7 @@ import * as I from './InsertPost'
 import * as G from'../../../../AppStyledGlobal'
 
 export const InsertPost = ({Modal, Image, Name, Surname}) => {
-  const serverUrl = 'https://api-sopost.onrender.com'
+  const serverUrl = 'https://sopost.onrender.com'
   return (
     <I.container>
       <I.insert>

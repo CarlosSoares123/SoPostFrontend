@@ -7,7 +7,7 @@ export const UserProvider = ({children}) => {
   const [user, setUser] = useState([])
   const [post, setPost] = useState([])
   
-  const serverURL = 'https://api-sopost.onrender.com'
+  const serverURL = 'https://sopost.onrender.com'
   axios.defaults.withCredentials = true
 
     const getData = () => {

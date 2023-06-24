@@ -15,7 +15,7 @@ export const SoProfile = () => {
   const { getData } = useContext(UserContext)
   const [auth, setAuth] = useState(false)
 
-  const serverURL = 'https://api-sopost.onrender.com'
+  const serverURL = 'https://sopost.onrender.com'
   useEffect(() => {
     axios.get(`${serverURL}/`)
       .then((res) => {

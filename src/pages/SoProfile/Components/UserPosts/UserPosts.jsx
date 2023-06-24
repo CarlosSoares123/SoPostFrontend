@@ -11,7 +11,7 @@ import { UserContext } from '../../../../context/UserContext';
 
 export const UserPosts = () => {
   const { user } = useContext(UserContext);
-  const serverURL = 'https://api-sopost.onrender.com'
+  const serverURL = 'https://sopost.onrender.com'
 
   const [posts, setPosts] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);

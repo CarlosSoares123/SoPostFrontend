@@ -7,7 +7,7 @@ import * as L from '../Login/Login'
 import Avatar from '/avatarUser.svg'
 
 export const Register = () => {
-  const serverUrl = 'https://api-sopost.onrender.com'
+  const serverUrl = 'https://sopost.onrender.com'
   const navigate = useNavigate('/')
 
   const [name, setName] = useState('')
@@ -49,6 +49,7 @@ export const Register = () => {
             <input 
             className='input' 
             type="file" 
+            name='image'
             id="image" 
             accept="image/*" 
             onChange={e => setImage(e.target.files[0])}

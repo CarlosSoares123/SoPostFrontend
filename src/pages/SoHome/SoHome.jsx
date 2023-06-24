@@ -20,7 +20,7 @@ export const SoHome = () => {
   const [auth, setAuth] = useState(false);
   const [text, setText] = useState('');
 
-  const serverURL = 'https://api-sopost.onrender.com'
+  const serverURL = 'https://sopost.onrender.com'
 
   axios.defaults.withCredentials = true
   useEffect(() => {
@@ -74,6 +74,7 @@ export const SoHome = () => {
   return (
     <div>
       <SH.mainscreen>
+        
         <SoHeader logout={handleLogout} />
 
         {auth ? (

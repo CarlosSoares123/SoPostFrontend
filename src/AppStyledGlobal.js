@@ -14,7 +14,7 @@ body{
 :root{
   --cor-base: #fff;
   --cor-title: hsla(0,0%,100%,1);
-  --cor-text:hsla(240,10%,20%,1);
+  --cor-text: hsla(240,10%,90%,1);
   --cor-white: #fff;
   --cor-button: hsla(216,10%,80%,1);
   --cor-bg: hsla(222,47%,11%,1);

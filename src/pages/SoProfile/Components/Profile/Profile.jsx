@@ -8,7 +8,7 @@ export const Profile = ({modalUser}) => {
     getData()
   }, [])
 
-  const serverURL = 'https://api-sopost.onrender.com'
+  const serverURL = 'https://sopost.onrender.com'
 
   return (
     <P.Container>
